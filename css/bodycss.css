@@ -1,0 +1,15 @@
+.form_body{
+	background-color: #8ecfe6;
+}
+.form-quanly{
+	background-color: #FFF;
+	margin-bottom: 20% auto;
+	margin-left: 20% auto;
+	margin-right:20% auto;
+	padding: 15px;
+	border-top:3px solid #09045f;
+	border-left:1px solid #ded7d7;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 1px 2px #ded7d7;
+}
