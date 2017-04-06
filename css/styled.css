@@ -1,0 +1,189 @@
+body{
+	background-color: #eaeaea;
+   height: 320px;
+ 
+   width: 100%;
+ 
+   overflow: auto;
+}
+.logo{
+	height: 200px;
+    width: 1000px;
+    background-color: #F5F5F5;
+    margin-bottom:3px;
+}
+.main{
+	width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2); 
+    background:;
+}
+.menu{
+	width:100%;
+    margin:0px auto;
+    background: #87CEFA;
+    height: 47px;
+    margin-top: 0px;
+}
+.menu li{
+	margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a{
+	transition:all linear 0.15s;
+    color:#919191;
+    text-decoration:none;
+}
+.menuli li:hover >a, .menu.current-item > a{
+	text-decoration:none;
+    color:red;
+}
+.menu.arrow {
+	font-size:11px;
+    line-height:0%;
+}
+.menu {
+    width:100%;
+    margin:0px auto;
+    background: #87CEFA;
+    height: 47px;
+    margin-top: 0px;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+    text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#00FF00;
+} 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+    border:1px solid black;
+    background:	#CD853F;
+}
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    color:black;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background-color:#FF00FF;
+    color: black;
+    font-weight: bolder;
+    font-size:12px;
+}
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:	#D8BFD8;
+}
+.footer{
+    height: 150px;
+    clear: both;
+    border: 1px solid #CDCDCD;
+    background-color: #1E90FF;
+    margin-bottom: 10px;
+    border: 1px solid #CDCDCD;
+}
+.box{
+	height: 2px;
+	width: 500px;
+}
+.formn{
+    background:url(http://file.diendanbaclieu.net/hinh/2013/4/hinh-nen-may-tinh-2013-6.jpg);
+    margin: 20% auto;
+    padding: 15px;
+    border-top:3px solid blue;
+    border-left:1px solid #ded7d7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 1px 2px #ded7d7;
+}
+.chu1{
+	color:#6495ED;
+}
+.nenanh{
+	background: url(http://file.vforum.vn/hinh/2014/10/hinh-nen-de-thuong-4.jpg);
+}
+.nen{
+	background: url(http://data.sinhvienit.net/2012/T07/img/SinhVienIT.NET---resized-sinhvienit-wallpaper-hd-8-.jpg);
+}
+.left{
+    background-color: red;
+    width: 140px;
+    min-height: 60px;
+    float:left;
+    margin-bottom: 5px;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 960px;
+    transition: all 2s 0.2s ease-in;
+    -moz-transition: all 1s 0.2s ease-in;
+    -webkit-transition: all 1s 0.2s ease-in;
+}
+.left:hover{
+    background-color: green;
+    margin-right: 50px;
+}
+.content{
+    width: 76%;
+    min-height: 959px; 
+    float:left;
+    margin-left: 11px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color:#CCCCFF;
+}
+.right{
+    width: 12%;
+    min-height: 600px;
+    margin-bottom: 5px;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 960px;
+    float:right;
+    transition: all 1s 0.2s ease-in;
+    -moz-transition: all 1s 0.2s ease-in;
+    -webkit-transition: all 1s 0.2s ease-in;
+}
+.right:hover{
+    background-color: blue;
+    margin-bottom: 290px;
+}
