@@ -11,7 +11,7 @@
 <div class="main">
 	<div class="he">
 		<div class="logo">
-			<a href="#"><img src="image/ky-tuc-xa.png"></a>
+			<a href="#"><img src="hinhanh/ky-tuc-xa.png"></a>
 		</div>
 		<div class="menu">
 			<ul class="clearfix">
@@ -64,7 +64,7 @@
 	<div class="row">
 		<div class="col-md-3"></div>
 		<div class="col-md-4">
-			<form action="themsinhvien.php?id={sinhvien}" method="post" class="formn">
+			<form action="admin/themsinhvien.php?id={sinhvien}" method="post" class="formn">
 				<div class="form-group">
 					<label>MÃ SINH VIÊN</label>
 					<input type="text" name="masv" class="form-control" placeholder="mã sinh viên"/>

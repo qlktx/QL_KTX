@@ -1,6 +1,6 @@
 <?php
-include_once('xtpl/xtemplate.class.php');
-$xtpl = new xtemplate('admin/themsinhvien.tpl');
+include_once('../includes/xtemplate.class.php');
+$xtpl = new xtemplate('../templates/admin/themsinhvien.tpl');
 $dbhost = "localhost";
 $dbname = "ql_ktx";
 $dbuser = "root";
@@ -21,15 +21,15 @@ if(isset($_POST['submit']))
 		if($db!=null)
 		{
 			mysql_set_charset('utf8');
-			if($masv> 0)
+			if($id> 0)
 			{
 				$result = mysql_query("INSERT INTO sinhvien (id, masv, tensv, ngaysinh, gioitinh,diachi) VALUES ( '".$id."', '".$masv."', '".$tensv."', '".$ngaysinh."','".$gioitinh."','".$diachi."')");
-				header("Location: kitucxa.php");
+				header("Location: admin/kitucxa.php");
 			}
 			else
 			{
 				$result = mysql_query("UPDATE sinhvien SET id = '".$id."',masv ='".$masv."',tensv = '".$tensv."', ngaysinh = '".$ngaysinh."',gioitinh='".$gioitinh."',diachi='".$diachi."' WHERE id = '".$masv."')");
-				header("Location: kitucxa.php");
+				header("Location: admin/kitucxa.php");
 			}
 		}
 	}

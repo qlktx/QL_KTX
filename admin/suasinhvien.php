@@ -1,6 +1,6 @@
 <?php
-include_once 'xtpl/xtemplate.class.php';
-$xtpl=new xtemplate('admin/suasinhvien.tpl');
+include_once '../includes/xtemplate.class.php';
+$xtpl=new xtemplate('../templates/admin/suasinhvien.tpl');
 $id=isset($_GET['masv'])?$_GET['masv']:0;
 if(isset($_POST['submit']))
 {
@@ -29,7 +29,7 @@ if(isset($_POST['submit']))
 			{
 				$error='loi';
 			}
-			header("Location:kitucxa.php");
+			header("Location:admin/kitucxa.php");
 
 		}
 	}

@@ -4,14 +4,14 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styled.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/styled.css">
 </head>
 <body>
 <div class="main">
 	<div class="he">
 		<div class="logo">
-			<a href="#"><img src="image/ky-tuc-xa.png"></a>
+			<a href="#"><img src="hinhanh/ky-tuc-xa.png"></a>
 		</div>
 		<div class="menu">
 			<ul class="clearfix">
@@ -46,7 +46,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="themsinhvien.php">Sinh viên
+					<a href="admin/themsinhvien.php">Sinh viên
 					<ul class="sub-menu">
 						<li><a href="#">Xem chỉ số điện</a></li>
 						<li><a href="#">Danh sách sv nộp tiền lưu trú</a></li>
@@ -85,10 +85,10 @@
 							<td>{sinhvien.gioitinh}</td>
 							<td>{sinhvien.diachi}</td>
 							<td>
-								<a href="suasinhvien.php?id={sinhvien.id}" title="sua" class="btn btn-warning">
+								<a href="admin/suasinhvien.php?id={sinhvien.id}" title="sua" class="btn btn-warning">
 									<span class="glyphicon glyphicon-edit"></span>
 								</a>
-								<a href="xoasinhvien.php?id={sinhvien.id}" title="xoa" class="btn btn-danger">
+								<a href="admin/xoasinhvien.php?id={sinhvien.id}" title="xoa" class="btn btn-danger">
 									<span class="glyphicon glyphicon-remove"></span>
 								</a>
 							</td>
@@ -100,7 +100,7 @@
 			</table>
 			<div class="col-xs-6 col-md-3">
                 <a href="#" class="hinh1">
-                    <img src="image/12.jpg" alt="...">
+                    <img src="hinhanh/12.jpg" alt="...">
                 </a>
             </div>
 	    </div>

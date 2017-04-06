@@ -1,6 +1,6 @@
 <?php
-include_once 'xtpl/xtemplate.class.php';
-$xtpl=new xtemplate('admin/kitucxa.tpl');
+include_once '../includes/xtemplate.class.php';
+$xtpl=new xtemplate('../templates/admin/kitucxa.tpl');
 $conn=mysql_connect('localhost','root','');
 	if(!empty($conn))
 	{

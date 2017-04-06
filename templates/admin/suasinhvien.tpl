@@ -4,15 +4,15 @@
 <head>
 	<title>sua thong tin vé</title>
 	<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styled.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/styled.css">
 </head>
 <body bgcolor="#" background="http://file.vforum.vn/hinh/2014/10/hinh-nen-hd-10.jpg" >
 	<div class="container">
 	  <div class="row">
 	   <div class="col-md-3"></div>
 	   <div class="col-md-4">
-	    <form action="suasinhvien.php?id={masv.id}" method="post">
+	    <form action="admin/suasinhvien.php?id={masv.id}" method="post">
 	    <div class="anh2">
 	         <div class="form-group">
 	    	  <input type="text"  class="form-control" name="id" placeholder="id" value="{sinhvien.id}" / >
